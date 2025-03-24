@@ -1,0 +1,14 @@
+============= MANTIS =============
+
+***** Undersampling_rate: 5 *****
+1. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0004] (First 200 epochs)
+2. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0004] (Next 200 epochs)
+
+***** Undersampling_rate: 3 *****
+{LOSS changed: Real_part and Imag_part}
+3. [Lamb_data:0.3,Lamb_cnn:1.0], [LR:0.0004] (First 200 epochs)
+{LOSS: "fft2(norm=ortho)" & ".to(torch.complex64)" ADDED}
+4. [Lamb_data:0.1,Lamb_cnn:1.0], [LR:0.0002] (First 200 epochs) # Same as MANTIS paper
+5. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0005] (First 200 epochs) # Adjusted hyper-parameters
+{1D-variable mask applied}
+6. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0005] (First 200 epochs)
