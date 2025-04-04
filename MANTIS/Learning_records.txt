@@ -12,3 +12,8 @@
 5. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0005] (First 200 epochs) # Adjusted hyper-parameters
 {1D-variable mask applied}
 6. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0005] (First 200 epochs)
+
+***** Undersampling_rate: 5 *****
+7. [Lamb_data:0.2,Lamb_cnn:1.0], [LR:0.0005] (First 200 epochs)
+(Code efficiency improved, 'SAFE_ACTIVATION' added, 'LR_scheduler' added)
+8. [Lamb_data:0.3,Lamb_cnn:1.0], [LR:0.0005, gamma=0.95] (First 200 epochs)

@@ -1,0 +1,6 @@
+=============== RELAX model_paths ===============
+
+(Undersampling_rate: 3, Center_fraction: 0.05, Num_Echoes: 16) # LOW undersampling rate
+(Final estimation block of Res-UNet is slightly different)
+(Wavelet + TV constraints applied)
+1. [Regularizer_weight: 0.01], [LR:0.0002, gamma:0.95] (First 200 epochs) # NO regularization
